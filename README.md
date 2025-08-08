@@ -2,11 +2,11 @@
 Repository for my Bachelor's thesis:
 Development and Optimization of a  Bike Computer with Navigation for  Embedded Systems
 
-This is my Bachelor’s thesis project: a Raspberry Pi–based bicycle computer with built-in navigation. It calculates routes using OpenStreetMap data and shows directions on a small display. Everything’s coded in Python, with minimal libraries and a focus on making it work from scratch. Feel free to use or improve it however you like.
+This is my Bachelor’s thesis project: a Raspberry Pi - based bicycle computer with built - in navigation. It calculates routes using OpenStreetMap data and shows directions on a small display. Everything’s coded in Python, with minimal libraries and a focus on making it work from scratch. Feel free to use or improve it however you like.
 
 ## Short Summary
 ### Introduction
-In the age of smartphones, standalone navigation systems may seem obsolete at first glance. However, bicycles remain a niche where such devices still hold potential—especially in the open-source space. The goal of this project was to develop a bicycle computer with navigation capabilities, based on embedded systems and with minimal use of external libraries. The focus was placed on functionality, transparency, and technical inspiration for future students.
+In the age of smartphones, standalone navigation systems may seem obsolete at first glance. However, bicycles remain a niche where such devices still hold potential - especially in the open-source space. The goal of this project was to develop a bicycle computer with navigation capabilities, based on embedded systems and with minimal use of external libraries. The focus was placed on functionality, transparency, and technical inspiration for future students.
 
 ### Methods and Materials
 
@@ -40,7 +40,7 @@ The developed device enables offline navigation based on a preloaded bicycle rou
 
 ### Conclusion and Outlook
 
-This work demonstrates that a fully functional bicycle computer can be created with simple means—independent of commercial solutions.  
+This work demonstrates that a fully functional bicycle computer can be created with simple means - independent of commercial solutions.  
 Future versions could include features like a search function, energy-efficient routing for e-bikes, or smartphone connectivity to transfer preplanned routes.  
 The project serves not only as a technical example of embedded navigation but also as an inspiration for further student developments at OTH Regensburg.
 
@@ -54,9 +54,6 @@ env\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
-## License
-This project is licensed under the Unlicense. Use it however you want!
-
 ## Future Projects
 
 Some ideas to build on this project:
@@ -69,3 +66,6 @@ Some ideas to build on this project:
 
 - **Energy-Efficient Routing**  
   For e-bike users—calculate routes that save battery and show how much energy different paths use.
+
+## License
+This project is licensed under the Unlicense. Use it however you want!
