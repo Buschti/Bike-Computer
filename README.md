@@ -15,27 +15,28 @@ The system is built from three main components:
 - A 1.44" LCD display with control buttons  
 - A GNSS-capable GPS module  
 
-![Raspi](images/display.png)
-![GPS](images/beitian.jpg)
+<p align="center">
+ <img src="images/display.png" alt="Raspi" width="400" />
+ <img src="images/beitian.jpg" alt="GPS" width="400" />
+</p>
 
 Navigation data is sourced from OpenStreetMap and optimized for bike routes.  
 Classic routing algorithms such as Dijkstra and A* were implemented for pathfinding, with graph theory playing a central role.  
 The software was initially developed on Windows and later ported to the Raspberry Pi.
 
-![A graph. The edges are gray, the nodes are red, and the calculated route is blue.](images/graph_polygon.png)
+<img src="images/graph_polygon.png" alt="A graph. The edges are gray, the nodes are red, and the calculated route is blue." width="400" />
 
 ### Results
 The developed device enables offline navigation based on a preloaded bicycle route. The route is not hard-coded and can be modified in the code. The routing logic works reliably, and the graphical interface clearly displays route layouts, turn instructions, and position data. Despite the limited performance of the Raspberry Pi, a functional and stable solution was achieved.
 
-![Navigation loaded. Closeup of the calculated route. Press the right middle button to start or the lower button to cancel the navigation.](images/loaded.png)
- 
-![Navigation started. Orientation changed. Window in top left corner shows to turn left in 659 meters (updates in real time).](images/start.png)
+<p align="center">
+  <img src="images/loaded.png" alt="Navigation loaded. Closeup of the calculated route." width="300" />
+  <img src="images/start.png" alt="Navigation started. Turn left in 659 meters." width="300" />
+  <img src="images/first_turn.png" alt="Navigation. Next turn in 465 meters." width="300" />
+  <img src="images/second_turn.png" alt="Navigation. Destination in 161 meters." width="300" />
+  <img src="images/destination_reached.png" alt="Navigation. Destination reached." width="300" />
+</p>
 
-![Navigation. After reaching the first turn the orientation changes again. The top-left window shows the next turn is in 465 meters](images/first_turn.png)
-
-![Navigation. The same happens after reaching the second turn. Next is the destination in 161 meters](images/second_turn.png)
-
-![)Navigation. When reaching the destination, a green windows appears that says: you have reached your destination](images/destination_reached.png)
 
 ### Conclusion and Outlook
 
