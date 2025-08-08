@@ -16,7 +16,7 @@ The system is built from three main components:
 - A GNSS-capable GPS module  
 
 ![Raspi](images/display.png)
-![GPS](images/beitian.png)
+![GPS](images/beitian.jpg)
 
 Navigation data is sourced from OpenStreetMap and optimized for bike routes.  
 Classic routing algorithms such as Dijkstra and A* were implemented for pathfinding, with graph theory playing a central role.  
