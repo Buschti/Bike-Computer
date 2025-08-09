@@ -17,7 +17,7 @@ The system is built from three main components:
 
 <p align="center">
  <img src="images/display.png" alt="Raspi" width="400" />
- <img src="images/beitian.jpg" alt="GPS" width="400" />
+ <img src="images/beitian.jpg" alt="GPS" width="200" />
 </p>
 
 Navigation data is sourced from OpenStreetMap and optimized for bike routes.  
