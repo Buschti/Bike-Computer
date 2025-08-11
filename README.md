@@ -53,6 +53,12 @@ source env/bin/activate  # Linux/macOS
 env\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
+## Starting the program
+```bash
+source env/bin/activate  # Linux/macOS
+env\Scripts\activate     # Windows
+python3 main.py
+```
 
 ## Future Projects
 
